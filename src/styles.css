@@ -1,0 +1,117 @@
+.euroWrapper {
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 14px;
+  line-height: 19px;
+  width: 100%;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  /* background: #54BDC4; */
+  height: 100%;
+  padding: 0;
+  margin-top: 72px;
+}
+.copaWrapper {
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 14px;
+  line-height: 19px;
+  width: 100%;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  /* background: #FDDB4B; */
+  height: 100%;
+  padding: 0;
+  margin-top: 16px;
+}
+
+.topWrapper {
+  display: flex;
+  width: 100%;
+  padding: 12px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  z-index: 9999;
+}
+
+.slider {
+  height: 40px;
+  width: 100%;
+  padding: 0 12px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  background: #f7f7f7;
+}
+
+.calendarContainer {
+  display: flex;
+  justify-content: center;
+  font-family: "Kanit", sans-serif;
+  background-color: black;
+  color: white;
+  padding-right: 12px;
+}
+.calendarDate {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #2ecc71;
+  color: white;
+}
+.calendarDay {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 0.8;
+}
+.calendarLabel {
+  font-size: 10px;
+  margin: 0;
+}
+.calendarTime {
+  padding-left: 8px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 0.8;
+}
+
+.euroHeader {
+  line-height: 24px;
+  font-size: 16px;
+  color: white;
+  margin: 0;
+  font-weight: 700;
+  text-align: left;
+  padding: 16px 16px;
+  line-height: 1.1875;
+  /* background-color: #439EA4; */
+  background-color: #54bdc4;
+}
+.copaHeader {
+  line-height: 24px;
+  font-size: 16px;
+  color: black;
+  margin: 0;
+  font-weight: 700;
+  text-align: left;
+  padding: 16px 16px;
+  line-height: 1.1875;
+  /* background-color: #D8BB40; */
+  background-color: #fddb4b;
+}

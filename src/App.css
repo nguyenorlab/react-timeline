@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  background: #f7f7f7;
+}
+.t-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #f7f7f7;
+}
+
+.t-title {
+  font-size: 2.5em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  position: relative;
+  margin-bottom: 1.5em;
+}
+
+.t-title:after {
+  content: "";
+  height: 2px;
+  width: 12%;
+  background: #ffffff40;
+  position: absolute;
+  top: 1.5em;
+  left: 43%;
+}

@@ -1,0 +1,23 @@
+.buttons {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  width: 60px;
+}
+
+.btn {
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  margin: 0 1em;
+  outline: none;
+  transition: 0.3s;
+  font-size: 30px;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
